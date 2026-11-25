@@ -19,6 +19,6 @@ jobs:
       - name: Install
         run: pip install -e . pytest ruff
       - name: Lint
-        run: ruff check src tests
+        run: ruff check qrcli tests
       - name: Test
         run: pytest
