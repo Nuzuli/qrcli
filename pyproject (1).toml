@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrcli"
+version = "0.1.0"
+description = "QR codes from your terminal. Zero dependencies."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Nuzuli" }]
+keywords = ["qr", "qrcode", "cli", "terminal", "offline"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Nuzuli/qrcli"
+Repository = "https://github.com/Nuzuli/qrcli"
+Issues = "https://github.com/Nuzuli/qrcli/issues"
+
+[project.scripts]
+qrcli = "qrcli.cli:main"
+
+[tool.setuptools]
+packages = ["qrcli"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
