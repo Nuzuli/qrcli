@@ -1,0 +1,1 @@
+# Repository root marker so pytest can import the qrcli package.
