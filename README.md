@@ -12,7 +12,7 @@ and never sends your payload anywhere.
 ## Install
 
 ```bash
-pip install qrcli
+pip install qrcli-py
 ```
 
 ## Quick start
