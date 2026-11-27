@@ -6,7 +6,7 @@
 
 qrcli makes QR codes with nothing but the Python standard library — the
 encoder is written from scratch (Reed–Solomon error correction and all), so
-`pip install qrcli` pulls in **no dependencies at all**, works fully offline,
+`pip install qrcli-py` pulls in, works fully offline,
 and never sends your payload anywhere.
 
 ## Install
